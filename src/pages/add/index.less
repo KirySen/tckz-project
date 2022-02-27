@@ -1,0 +1,37 @@
+.container {
+    padding: 50px;
+    border: 1px solid #ccc;
+    .form-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #ccc;
+        .label-title {
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+        .label-value {
+            margin-bottom: 20px;
+        }
+        .media {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon {
+                font-size: 40px;
+                color: #ccc;
+            }
+            .delete {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+            }
+        }
+    }
+}

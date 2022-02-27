@@ -1,0 +1,43 @@
+// 内容盒子
+.container {
+    padding: 50px 40px;
+    // 搜索盒子
+    .serach-box {
+        width: 90%;
+        margin-bottom: 50px;
+        border:1px solid #ccc;
+        border-radius: 50px;
+        height: 50px;
+        padding: 20px 30px;
+    }
+    // 列表Title
+    .list-title {
+        padding: 0 10px;
+        margin-bottom: 50px;
+        font-size: 48px;
+    }
+    // 信息列表
+    .list-box {
+        .card {
+            padding-bottom: 45px;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 50px;
+            .img {
+                flex: .9;
+                width: 100%;
+                background: #000;
+            }
+            .info{
+                padding: 20px 40px;
+                .title {
+                    font-size: 34px;
+                    color: #ccc;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

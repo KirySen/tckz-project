@@ -1,0 +1,59 @@
+// 内容盒子
+.container {
+    min-width: 750px;
+    height: 100vh;
+    padding:  40px;
+    overflow: hidden;
+    // 搜索盒子
+    .serach-box {
+        width: 82%;
+        margin-bottom: 50px;
+        border:1px solid #ccc;
+        border-radius: 50px;
+        height: 50px;
+        padding: 20px 30px;
+    }
+    // 列表Title
+    .list-title {
+        padding: 0 10px;
+        margin-bottom: 50px;
+        font-size: 48px;
+    }
+    // 信息列表
+    .list-box {
+        width: 90%;
+        .card {
+            padding-bottom: 45px;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            min-height: 500px;
+            overflow: hidden;
+            margin-bottom: 50px;
+            .img {
+                flex: .9;
+                width: 100%;
+                background: #000;
+            }
+            .info{
+                padding: 20px 40px;
+                .title {
+                    font-size: 34px;
+                    color: #ccc;
+                    margin-right: 10px;
+                }
+            }
+            // 视频组件封面
+            .video-poster {
+                position: relative;
+                height: 450px;
+                width: 100%;
+                .tip {
+                    position:absolute;
+                    left:50%;    /* 定位父级的50% */
+                    top:50%;
+                    transform: translate(-50%,-50%); /*自己的50% */
+                }
+            }
+        }
+    }
+}
