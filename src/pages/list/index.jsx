@@ -8,7 +8,7 @@ let page = 0
 
 const List = () => {
     // 最多条数
-    const MAX_LIMIT = 5
+    const MAX_LIMIT = 10
     // 搜索字段
     const [name, setName] = useState('')
     // 列表数据
