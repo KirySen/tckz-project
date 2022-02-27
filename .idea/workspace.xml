@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d14772-aeab-48c9-8974-8de930ad7ee0" name="默认的" comment="初次提交版本" />
+    <list default="true" id="18d14772-aeab-48c9-8974-8de930ad7ee0" name="默认的" comment="初次提交版本">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/list/index.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +81,7 @@
       <updated>1645974074027</updated>
       <workItem from="1645974075845" duration="1977000" />
       <workItem from="1645976292663" duration="5000" />
-      <workItem from="1645976306494" duration="553000" />
+      <workItem from="1645976306494" duration="950000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交版本">
       <created>1645974328567</created>
@@ -108,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645975167796</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="初次提交版本">
+      <created>1645977356875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645977356875</updated>
+    </task>
+    <task id="LOCAL-00006" summary="初次提交版本">
+      <created>1645977536411</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645977536411</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,9 +148,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="初次提交版本" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="265" key="Vcs.Push.Dialog.v2" timestamp="1645977268013">
+    <state x="100" y="123" width="1720" height="805" key="DiffContextDialog" timestamp="1645977628441">
       <screen x="0" y="23" width="1920" height="1005" />
     </state>
-    <state x="560" y="265" key="Vcs.Push.Dialog.v2/0.23.1920.1005@0.23.1920.1005" timestamp="1645977268013" />
+    <state x="100" y="123" width="1720" height="805" key="DiffContextDialog/0.23.1920.1005@0.23.1920.1005" timestamp="1645977628441" />
+    <state x="560" y="265" key="Vcs.Push.Dialog.v2" timestamp="1645977566641">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state x="560" y="265" key="Vcs.Push.Dialog.v2/0.23.1920.1005@0.23.1920.1005" timestamp="1645977566641" />
+    <state x="770" y="266" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1645977403936">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state x="770" y="266" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1920.1005@0.23.1920.1005" timestamp="1645977403936" />
+    <state x="781" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645977372043">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state x="781" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1005@0.23.1920.1005" timestamp="1645977372043" />
   </component>
 </project>

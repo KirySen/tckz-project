@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { ScrollView, View, Input, Icon, Image, Video, Button } from '@tarojs/components'
 import Taro, { useDidShow, getStorageSync } from '@tarojs/taro'
 import './index.less'
@@ -193,6 +193,9 @@ const List = () => {
             setArr(clone_houstList)
         }
     }
+    useEffect(() => {
+        console.log('arr: ', arr, 'page: ', page)
+    },[arr])
     return (
         <ScrollView scrollY className='container vertical' onScrollToLower={onScrollToLower}>
             <View className='serach-box dis-flex flex-between'>
@@ -208,9 +211,9 @@ const List = () => {
             <View className='list-box vertical'>
                 {!!arr.length && arr.map((e, index) =>
                     <View className='card vertical' key={index}>
-                        {!e.isPlayVideo ? <Image className='video-poster' src={e.cover}
+                        {!e.isPlayVideo ? <Image className='video-poster' src={e.cover || 'cloud://tongchengkuaizu-7g4hhynh201c02cd.746f-tongchengkuaizu-7g4hhynh201c02cd-1309603707/1645963534476.jpg'}
                           onClick={() => onPlayVideo(e, index)}
-                        ><View className='tip' style={{color: e.cover ? '#fff' : '#000'}}>点击加载视频</View></Image> :
+                        ><View className='tip'>点击加载视频</View></Image> :
                         <Video
                           src={e.video}
                           style='width: 100%'

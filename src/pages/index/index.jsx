@@ -1,21 +1,21 @@
-import Taro, { setStorage, useDidShow, getStorageSync } from '@tarojs/taro'
+import Taro, { setStorage } from '@tarojs/taro'
 import { View, Form, Input, Button } from '@tarojs/components'
 import './index.less'
 
 const Index = () => {
 
-  useDidShow(() => {
-    if (getStorageSync('login')) {
-      Taro.redirectTo({
-        url: '/pages/default/index',
-      })
-    } else {
-      console.log('未登录状态')
-    }
-    Taro.showShareMenu({
-      withShareTicket: true
-    })
-  })
+  // useDidShow(() => {
+  //   if (getStorageSync('login')) {
+  //     Taro.redirectTo({
+  //       url: '/pages/default/index',
+  //     })
+  //   } else {
+  //     console.log('未登录状态')
+  //   }
+  //   Taro.showShareMenu({
+  //     withShareTicket: true
+  //   })
+  // })
   Taro.onShareAppMessage= () => {
 
   }
