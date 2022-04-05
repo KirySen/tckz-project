@@ -1,11 +1,34 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		},
-		{
-			"path": "../../webpack-demo"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": ".."
+    },
+    {
+      "path": "../../webpack-demo"
+    },
+    {
+      "path": "../../TypeScript-demo"
+    },
+    {
+      "path": "../../SmartBud"
+    },
+    {
+      "path": "../../../Downloads/资料/code"
+    },
+    {
+      "path": "../../vue-demo"
+    },
+    {
+      "path": "../../node-demo"
+    },
+    {
+      "path": "../../kiry-npm-tools"
+    },
+    {
+      "path": "../../my-app"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "webpack-demo"
+  }
 }
